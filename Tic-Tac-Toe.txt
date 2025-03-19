@@ -1,0 +1,33 @@
+Project Title:
+Implementation of Tic-Tac-Toe Game
+
+Description:
+This is a Tic-Tac-Toe Game built in Python language using the Tkinter library(for GUI) and Pygame library(for Sound effects).It is a simple two-player game where players take turns marking spaces in a 3x3 grid. One player uses "X" while the other uses "O". The objective is to be the first to get three of their marks in a row, which can be horizontally, vertically, or diagonally. If a player successfully aligns three of their symbols, they win the game. If all nine spaces are filled and no player has aligned three of their symbols, the game ends in a draw.
+
+Requirements
+To run this project, you need Python 3.x installed on your system.
+
+Required Python libraries/modules:
+Tkinter (pre-installed with Python)
+Pygame
+
+How to Run the Project:
+Save this code in a file named `Tic_Tac_Toe_game.py` and also save the 3 sound files(in .wav format) as it is used in the code.
+Open an IDE:
+Inside the IDE run the saved .py code and also give path of 3 sound files to respective variables in the code before running it.
+It is to be done as written below:
+[
+click_sound = pygame.mixer.Sound("path_of_click_sound.wav")  
+win_sound = pygame.mixer.Sound("path_of_win_sound.wav")      
+tie_sound = pygame.mixer.Sound("path_of_tie_sound.wav")  
+]
+
+Interaction with the game:
+Once the game window appears after running the code, you can start playing by performing the following actions:
+You can click on the empty button it gets filled with either 'X' or 'O'. If you click on already filled button it shows and error message.
+Once you have three successive same symbols either horizontally , vertically or diagonally you win. You can reset the game anytime in between.
+
+Exit the Game
+Click the "Quit"(Cross icon) button to close the game.
+
+If invalid actions are done, an error message will pop up.
